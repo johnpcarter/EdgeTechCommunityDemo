@@ -8,3 +8,9 @@ packages:
   gitUsername: johnpcarter
   gitToken: edge.scaffolding.EdgeTechCommunityDemo.JohnBoy.gitToken
   gitBranch: main
+- name: JcPublicTools
+  gitServerName: JohnBoy
+  gitUrl: https://github.com/johnpcarter
+  gitUsername: johnpcarter
+  gitToken: edge.scaffolding.JcPublicTools.JohnBoy.gitToken
+  gitTag: v2.1.0
