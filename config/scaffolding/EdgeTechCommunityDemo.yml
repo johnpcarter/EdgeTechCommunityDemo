@@ -12,6 +12,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.560
+- serviceName: jc.tools.pub.list:containsString
+  packages:
+  - name: JcPublicTools
+    version: "5.0"
 packages:
 - name: EdgeTechCommunityDemo
   gitServerName: JohnBoy
