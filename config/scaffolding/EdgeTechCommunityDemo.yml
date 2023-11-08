@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeTechCommunityDemo
+  gitServerName: JohnBoy
+  gitUrl: https://github.com/johnpcarter/EdgeTechCommunityDemo
+  gitUsername: johnpcarter
+  gitToken: edge.scaffolding.EdgeTechCommunityDemo.JohnBoy.gitToken
+  gitBranch: main
