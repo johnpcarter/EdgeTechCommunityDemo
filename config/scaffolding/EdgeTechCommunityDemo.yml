@@ -8,6 +8,10 @@ services:
     version: "1.0"
   - name: JcPublicTools
     version: "5.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
 packages:
 - name: EdgeTechCommunityDemo
   gitServerName: JohnBoy
