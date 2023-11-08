@@ -1,6 +1,13 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.techcommunitydemo.integrations:helloWorld
+  packages:
+  - name: EdgeTechCommunityDemo
+    version: "1.0"
+  - name: JcPublicTools
+    version: "5.0"
 packages:
 - name: EdgeTechCommunityDemo
   gitServerName: JohnBoy
