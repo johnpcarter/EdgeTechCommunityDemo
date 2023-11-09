@@ -63,11 +63,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">john</value>
-    <value name="lastModifiedDate">1699442932912</value>
+    <value name="lastModifiedDate">1699521170728</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">default</value>
-      <null name="group"/>
-      <value name="name">Default (Cloud)</value>
+      <value name="id">5c0a9126b99942038449daafb9f481f1</value>
+      <value name="group">default</value>
+      <value name="name">JC_MAC</value>
     </record>
     <value name="displayName">helloWorld</value>
     <value name="description">demo</value>
@@ -89,6 +89,7 @@
         <number name="nodeIndex" type="Long">0</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -108,6 +109,7 @@
         <number name="ui_step_index" type="Long">2</number>
         <number name="nodeIndex" type="Long">1</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
