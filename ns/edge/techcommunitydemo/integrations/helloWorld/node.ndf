@@ -63,11 +63,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">john</value>
-    <value name="lastModifiedDate">1699522351856</value>
+    <value name="lastModifiedDate">1699624481910</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">626d947742234cddaa17bcfc135441a7</value>
+      <value name="id">default</value>
       <value name="group">default</value>
-      <value name="name">JC_MAC</value>
+      <value name="name">Default (Cloud)</value>
     </record>
     <value name="displayName">helloWorld</value>
     <value name="description">demo</value>
@@ -95,21 +95,19 @@
         <null name="name"/>
         <value name="itemType">PACKAGES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">JcPublicTools</value>
-          <value name="groupName">JcPublicTools;5.0</value>
+          <value name="groupDisplayName">OnPremiseISPkg</value>
+          <value name="groupName">OnPremiseISPkg;1.0</value>
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">jc.tools.pub.list:containsString</value>
-          <value name="serviceName">jc.tools.pub.list:containsString</value>
-          <value name="displayName">containsString</value>
+          <value name="description">OnPremiseISPkg.REST.openweather_.services:CurrentWeatherData</value>
+          <value name="serviceName">OnPremiseISPkg.REST.openweather_.services:CurrentWeatherData</value>
+          <value name="displayName">CurrentWeatherData</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">2</number>
         <number name="nodeIndex" type="Long">1</number>
-        <Boolean name="xmlMapsetSupported">true</Boolean>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>

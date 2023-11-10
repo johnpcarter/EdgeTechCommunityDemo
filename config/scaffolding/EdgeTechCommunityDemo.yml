@@ -29,3 +29,9 @@ packages:
   gitUsername: johnpcarter
   gitToken: edge.scaffolding.JcPublicTools.JohnBoy.gitToken
   gitTag: v2.1.0
+- name: OnPremiseISPkg
+  gitServerName: RAHS_SAG_GitHub
+  gitUrl: https://github.softwareag.com/rahs
+  gitUsername: rahs
+  gitToken: edge.scaffolding.OnPremiseISPkg.RAHS_SAG_GitHub.gitToken
+  gitBranch: main
