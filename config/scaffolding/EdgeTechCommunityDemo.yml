@@ -10,6 +10,8 @@ services:
     version: "5.0"
   - name: OnPremiseISPkg
     version: "1.0"
+  - name: OpenWeatherClient
+    version: "1.0"
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
@@ -34,6 +36,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.560
+- serviceName: OpenWeatherClient.REST.openweatherclient_.services:CurrentWeatherData
+  packages:
+  - name: OpenWeatherClient
+    version: "1.0"
 packages:
 - name: EdgeTechCommunityDemo
   gitServerName: JohnBoy
