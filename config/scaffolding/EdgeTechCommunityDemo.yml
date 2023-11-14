@@ -41,15 +41,9 @@ packages:
   gitUsername: johnpcarter
   gitToken: edge.scaffolding.EdgeTechCommunityDemo.JohnBoy.gitToken
   gitBranch: main
-- name: JcPublicTools
-  gitServerName: JohnBoy
-  gitUrl: https://github.com/johnpcarter
-  gitUsername: johnpcarter
-  gitToken: edge.scaffolding.JcPublicTools.JohnBoy.gitToken
-  gitTag: v2.1.0
-- name: OnPremiseISPkg
+- name: OpenWeatherClient
   gitServerName: RAHS_SAG_GitHub
   gitUrl: https://github.softwareag.com/rahs
   gitUsername: rahs
-  gitToken: edge.scaffolding.OnPremiseISPkg.RAHS_SAG_GitHub.gitToken
+  gitToken: edge.scaffolding.OpenWeatherClient.RAHS_SAG_GitHub.gitToken
   gitBranch: main

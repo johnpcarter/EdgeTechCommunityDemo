@@ -63,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">john</value>
-    <value name="lastModifiedDate">1699624778848</value>
+    <value name="lastModifiedDate">1699949243912</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
       <value name="group">default</value>
@@ -95,20 +95,19 @@
         <null name="name"/>
         <value name="itemType">PACKAGES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">OnPremiseISPkg</value>
-          <value name="groupName">OnPremiseISPkg;1.0</value>
+          <value name="groupDisplayName">OpenWeatherClient</value>
+          <value name="groupName">OpenWeatherClient;1.0</value>
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">OnPremiseISPkg.REST.openweather_.services:CurrentWeatherData</value>
-          <value name="serviceName">OnPremiseISPkg.REST.openweather_.services:CurrentWeatherData</value>
+          <value name="description">OpenWeatherClient.REST.openweatherclient_.services:CurrentWeatherData</value>
+          <value name="serviceName">OpenWeatherClient.REST.openweatherclient_.services:CurrentWeatherData</value>
           <value name="displayName">CurrentWeatherData</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">2</number>
         <number name="nodeIndex" type="Long">1</number>
-        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
